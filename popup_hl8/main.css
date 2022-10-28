@@ -1,0 +1,55 @@
+.img-wrap {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 56.25%;
+}
+
+.img-wrap img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.modal .modal-body {
+    background-color: #000;
+}
+
+.modal .modal-dialog .modal-body .img-wrap {
+    padding-top: 200%;
+}
+
+.modal .modal-dialog .modal-body {
+    padding: 1rem;
+}
+
+.modal .modal-dialog .modal-body .content h2 {
+    color: #FFBA00;
+}
+
+.modal .modal-dialog .modal-body .content p {
+    font-size: 1rem;
+    color: #FFFF;
+}
+
+.modal .modal-dialog .modal-body .content .list li {
+    color: #FFFF;
+}
+
+.modal .modal-dialog .modal-body .content button.btn-register {
+    background-color: #EF295A;
+    width: 100%;
+}
